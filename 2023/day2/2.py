@@ -50,8 +50,6 @@ for i, game in enumerate(pulls_bygame):
                 if alpha > 14:
                     if i+1 not in bad_games:
                         bad_games.append(i+1)
-    print("tha maximums are:", red, green, blue)
-    print(red*green*blue)
     multiplied.append(red*green*blue)
 
 print(5050-sum(bad_games))
